@@ -1,0 +1,24 @@
+a.
+<?php
+for($r=6; $r>=1; $r--)
+{
+for($s=1; $s<$r; $s++)
+{
+echo "$s";
+//echo "*";
+}
+echo "<br>";
+}
+?>
+
+b.
+<?php
+for ($j = 5; $j > 0; $j--) {
+    for($i = $j; $i > 0; $i--){
+        echo $i;
+    }
+    echo '<br />';
+}
+?>
+
+c.
